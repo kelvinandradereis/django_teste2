@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+</head>
+<body>
+<h1>LISTA DOS POSTS</h1>
+    {%for post in lista_posts%}
+     <article>
+         <h2>{{post.titulo}}</h2>
+         {{post.texto}}
+     </article>
+     {%endfor%}
+</body>
+</html>
